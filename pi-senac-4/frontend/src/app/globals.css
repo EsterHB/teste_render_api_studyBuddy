@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-[#F8FAFC] text-gray-800 antialiased;
+}
+
+/* Transições suaves */
+* {
+  @apply transition-all duration-200;
+}
+
+
+
+
+/* 
+:root {
+    --background: #ffffff;
+    --foreground: #171717;
+}
+
+html,
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+    color: var(--foreground);
+    background: var(--background);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+} */
